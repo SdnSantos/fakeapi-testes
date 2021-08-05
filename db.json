@@ -1,17 +1,25 @@
 {
-   "header":{
-      "fileType":"Baixa",
-      "startDateTime":"10/12/2020 10:00:00",
-      "endDateTime":"10/12/2020 10:05:00",
-      "version":"1.0"
-   },
-   "operationDate":"datetime",
-   "liquidationDate":"datetime",
-   "operationType":"03",
-   "paymentMethodId":"PX",
-   "depositedAmount":130,
-   "valorNet":125,
-   "valorTaxa":5,
-   "idReferenciaExterna":"000000310001",
-   "idTransacao":"310001"
+   "header" : {
+        "fileType": "Baixa",
+        "startDateTime": "10/12/2020 10:00:00",
+        "endDateTime": "10/12/2020 10:05:00",
+        "version":"1.0"
+    },
+    "operations" : [
+        {                        
+            "operationType": "03",                     
+            "paymentMethodId": "PX",                    
+            "depositedAmount": 130,                     
+            "valorNet": 125,        
+            "idReferenciaExterna": "11111111"  
+          
+        },
+        {                   
+            "operationType": "03",                     
+            "paymentMethodId": "PX",                    
+            "depositedAmount": 138.50,                     
+            "valorNet": 130,  
+            "idReferenciaExterna": "22222222"    
+        }      
+    ]  
 }
